@@ -63,7 +63,7 @@ ul .box {
   margin-right: 1rem;
 }
 
-.title h2 {
+.title h1 {
   color: #ff6b00;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
@@ -72,7 +72,7 @@ ul .box {
   letter-spacing: 0.37px;
 }
 
-.profession h3 {
+.profession h2 {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
