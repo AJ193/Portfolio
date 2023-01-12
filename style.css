@@ -1,31 +1,101 @@
-nav {
-    display: flex;
-    border: 2px solid black;
-    /* justify-content: center; */
-    background-color: darkgray;
-    height: 100%;
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
 }
+
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 92px;
+    width: 100vw;
+    background: #3C3A39;
+}
+body {
+    background: black;
+}
+.image-ils {
+    position: absolute;
+    left: 83.37%;
+right: -96.24%;
+top: 29%;
+bottom: 0.1%;
+
+transform: matrix(-1.00, 0.27, 0.27, 0.96, 11, 20);
+}
+nav {
+    width: 100%;
+    height: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
 nav ul {
     list-style: none;
     display: flex;
-    border: 2px solid yellow;
-    width: 100vh;
-    /* justify-content: space-between; */
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
+
 ul .box {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
 }
+
 .box1 {
-    flex: 1;
-    display: flex;
-    border: 2px solid red;
-    /* justify-content: flex-start; */
+    color: #FFFFFF;
 }
-.box2 {
-    flex: 1;
+
+/* about section */
+.mainbody {
+    width: 90%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin: 0 auto;
+}
+
+.title h2 {
+    color: #FF6B00;
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    /* or 114% */
+
+    letter-spacing: 0.37px;
+}
+.profession h3 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+color: #FFF5E1
+}
+.discription p {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+.social-links {
+    width: 60%;
     display: flex;
-    border: 2px solid green;
-    /* justify-content: flex-end; */
+    justify-content: space-between;
+    align-items: center;
+}
+.social-links .social-icon {
+    height: 20px;
+width: 18px;
+}
+li {
+    list-style: none;
 }
