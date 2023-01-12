@@ -1,101 +1,106 @@
 *,
 html,
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
 }
 
 .header {
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 92px;
-    width: 100vw;
-    background: #3C3A39;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 92px;
+  width: 100vw;
+  background: #3c3a39;
 }
-body {
-    background: black;
-}
-.image-ils {
-    position: absolute;
-    left: 81.37%;
-right: -96.24%;
-top: 53%;
-bottom: 0.1%;
 
-transform: matrix(-1.00, 0.27, 0.27, 0.96, 11, 20);
+body {
+  background: black;
 }
+
+.image-ils {
+  position: absolute;
+  left: 81.37%;
+  right: -96.24%;
+  top: 53%;
+  bottom: 0.1%;
+  transform: matrix(-1, 0.27, 0.27, 0.96, 11, 20);
+}
+
 nav {
-    width: 100%;
-    height: 100%;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+  width: 100%;
+  height: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: space-between;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 ul .box {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 .box1 {
-    color: #FFFFFF;
+  color: #fff;
 }
 
 /* about section */
 .mainbody {
-    width: 90%;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .title h2 {
-    color: #FF6B00;
-    font-family: 'Crete Round';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 3rem;
-    /* or 114% */
+  color: #ff6b00;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  letter-spacing: 0.37px;
+}
 
-    letter-spacing: 0.37px;
-}
 .profession h3 {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 32px;
-color: #FFF5E1
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
 }
+
 .discription p {
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
+
 .social-links {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .social-links .social-icon {
-    height: 20px;
-width: 18px;
+  height: 20px;
+  width: 18px;
 }
+
 li {
-    list-style: none;
+  list-style: none;
 }
