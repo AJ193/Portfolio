@@ -24,7 +24,8 @@ nav {
   padding-left: 12px;
   padding-right: 24px;
   z-index: 999;
-  background: #fff;
+  /* stylelint-disable-next-line color-hex-case */
+  background: #3C3A39;
 }
 
 .nav-center {
@@ -33,6 +34,7 @@ nav {
   align-items: center;
   width: 100%;
   height: 48px;
+  color: white;
 }
 
 #logo {
