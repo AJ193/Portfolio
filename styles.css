@@ -663,7 +663,7 @@ nav {
   top: 0;
   border-radius: 0;
   background: #262626;
-  background-image: url(images/Img\ Placeholder\ \(1\).png);
+  background-image: url(images/back\ ground.png);
 }
 
 /* below are css for the About section */
@@ -673,19 +673,19 @@ nav {
   align-items: flex-start;
   height: 1901px;
   width: 375px;
-  left: 0px;
+  left: 0 px;
   top: 4300px;
-  border-radius: 0px;
-  background: #1C1A19;
+  border-radius: 0.1px;
+  background: #1c1a19;
   position: absolute;
 }
 
 .about {
   width: 375px;
   height: 563px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
+  left: 0.1px;
+  top: 0 px;
+  border-radius: 0 px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -698,7 +698,7 @@ nav {
 }
 
 .about-me {
-  top: 0px;
+  top: 0 px;
   border-radius: nullpx;
   font-family: 'Crete Round', serif;
   font-style: normal;
@@ -706,7 +706,7 @@ nav {
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.37px;
-  color: #FF6B00;
+  color: #ff6b00;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -716,12 +716,12 @@ nav {
 .about-me-description {
   top: 182px;
   border-radius: nullpx;
-  font-family: 'Inter' ,sans-serif;
+  font-family: 'Inter'sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #F4F5F7;
+  color: #f4f5f7;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -734,12 +734,12 @@ nav {
   align-items: center;
   padding: 12px;
   gap: 10px;
-  background: #FF6B00;
+  background: #ff6b00;
   flex: none;
   order: 2;
   left: 24px;
   top: 370px;
-  border-radius: 0px;
+  border-radius: 0 px;
   position: absolute;
   flex-grow: 0;
 }
@@ -756,6 +756,7 @@ nav {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
+  /* stylelint-disable-next-line color-hex-case */
   color: #FFF;
   flex: none;
   order: 0;
@@ -772,19 +773,19 @@ nav {
 
 .divider {
   width: 327px;
-  left: 0px;
+  left: 0 px;
   top: 615px;
-  border-radius: 0px;
+  border-radius: 0 px;
   position: absolute;
-  height: 0px;
-  right: 0px;
-  border: 1px solid #FFFFFF;
+  height: 0 px;
+  right: 0 px;
+  border: 1px solid #fff;
   order: 1;
 }
 
 .skill {
   top: 630px;
-  border-radius: 0px;
+  border-radius: 0 px;
   padding: 120px 24px 120px 24px;
   display: flex;
   flex-direction: column;
@@ -797,11 +798,11 @@ nav {
 
 .language {
   top: 120px;
-  border-radius: 0px;
+  border-radius: 0 px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0 px;
   gap: 24px;
   flex: none;
   order: 0;
@@ -810,9 +811,9 @@ nav {
 }
 
 .lang-contain {
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
+  left: 0 px;
+  top: 0 px;
+  border-radius: 0 px;
   padding: 8px 12px 8px 12px;
   flex-direction: row;
   align-items: center;
@@ -826,9 +827,9 @@ nav {
 .lang-rectnalge {
   left: 25px;
   top: 89px;
-  border-radius: 0px;
+  border-radius: 0 px;
   height: 18px;
-  background: #FF6B00;
+  background: #ff6b00;
   transform: rotate(-45deg);
   flex: none;
   order: 0;
@@ -845,7 +846,7 @@ nav {
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color: #fff;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -862,8 +863,8 @@ nav {
 .langtags {
   width: 186px;
   left: 19.7275390625px;
-  border-radius: 0px;
-  padding: 0px 12px 0px 12px;
+  border-radius: 0 px;
+  padding: 0 px 12px 0 px 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -883,7 +884,7 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px 0px;
+  padding: 12px 0 px;
   flex: none;
   flex-grow: 0;
 }
@@ -913,21 +914,23 @@ nav {
   line-height: 43px;
   display: flex;
   align-items: center;
+  /* stylelint-disable-next-line length-zero-no-unit */
   letter-spacing: 0em;
-  color: #FFFFFF;
+  color: #fff;
   order: 0;
   flex-grow: 0;
+  /* stylelint-disable-next-line declaration-block-no-shorthand-property-overrides */
   flex: none;
 }
 
 .frameworks {
   top: 425.455810546875px;
   left: 24px;
-  border-radius: 0px;
+  border-radius: 0 px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0 px;
   gap: 24px;
   flex: none;
   order: 1;
@@ -935,9 +938,9 @@ nav {
 }
 
 .frmwrk-contain {
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
+  left: 0 px;
+  top: 0 px;
+  border-radius: 0 px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -953,8 +956,8 @@ nav {
   width: 18px;
   left: 12px;
   top: 210px;
-  border-radius: 0px;
-  background: #FF6B00;
+  border-radius: 0 px;
+  background: #ff6b00;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -1009,7 +1012,7 @@ nav {
   left: 62px;
   top: 130px;
   border-radius: 150px;
-  background: #FF6B00;
+  background: #ff6b00;
   flex: none;
   order: 0;
   flex-grow: 0;
