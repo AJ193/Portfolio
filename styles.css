@@ -685,7 +685,7 @@ nav {
   width: 375px;
   height: 563px;
   left: 0.1px;
-  top: 40px;
+  top: 35px;
   border-radius: 0 px;
   display: flex;
   flex-direction: column;
@@ -774,7 +774,7 @@ nav {
 
 .divider {
   width: 327px;
-  left: 0 px;
+  left: 24px;
   top: 615px;
   border-radius: 0 px;
   position: absolute;
