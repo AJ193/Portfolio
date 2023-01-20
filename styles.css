@@ -685,7 +685,7 @@ nav {
   width: 375px;
   height: 563px;
   left: 0.1px;
-  top: 0 px;
+  top: 40px;
   border-radius: 0 px;
   display: flex;
   flex-direction: column;
@@ -695,11 +695,11 @@ nav {
   position: absolute;
   background-image: url(images/illustration-about-me-mobile.png);
   background-repeat: no-repeat;
-  background-position: bottom -20px right -10px;
+  background-position: bottom -10px right -10px;
 }
 
 .about-me {
-  top: 60px;
+  top: 75px;
   border-radius: nullpx;
   font-family: 'Crete Round', serif;
   font-style: normal;
@@ -738,11 +738,12 @@ nav {
   background: #ff6b00;
   flex: none;
   order: 2;
-  left: 24px;
-  top: 370px;
+  left: 17px;
+  top: 350px;
   border-radius: 0 px;
   position: absolute;
   flex-grow: 0;
+  border: 1px solid #ff6b00;
 }
 
 .btn-abouttxt {
@@ -757,8 +758,7 @@ nav {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  /* stylelint-disable-next-line color-hex-case */
-  color: #FFF;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -915,13 +915,10 @@ nav {
   line-height: 43px;
   display: flex;
   align-items: center;
-  /* stylelint-disable-next-line length-zero-no-unit */
-  letter-spacing: 0em;
+  letter-spacing: 0 em;
   color: #fff;
   order: 0;
   flex-grow: 0;
-  /* stylelint-disable-next-line declaration-block-no-shorthand-property-overrides */
-  flex: none;
 }
 
 .frameworks {
@@ -955,7 +952,7 @@ nav {
 .frmwrk-rectnalge {
   height: 18px;
   width: 18px;
-  left: -10px;
+  left: -35px;
   top: 180px;
   border-radius: 0 px;
   background: #ff6b00;
@@ -966,7 +963,7 @@ nav {
 }
 
 .frmktxt {
-  left: 1px;
+  left: -20px;
   top: 180px;
   position: relative;
 }
