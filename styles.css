@@ -108,6 +108,19 @@ nav {
   gap: 1rem;
 }
 
+.links {
+  padding: 15px;
+  display: flex;
+  width: 10rem;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 0 rem;
+  position: relative;
+  top: 2800px;
+  left: 50px;
+}
+
 .my-recent-works {
   display: grid;
   grid-template-columns: auto;
@@ -1027,4 +1040,167 @@ nav {
 .ulskill {
   top: 900px;
   position: absolute;
+}
+
+.add-contact-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 58px;
+  position: absolute;
+  width: 375px;
+  height: 844px;
+  left: 0 px;
+  top: 6038px;
+}
+
+.text-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 px;
+  gap: 24px;
+  width: 327px;
+  height: 216px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  left: 24px;
+  top: 120px;
+  border-radius: 0 px;
+}
+
+.contact-text {
+  width: 327px;
+  height: 216px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: relative;
+  top: -4100px;
+}
+
+.add-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 px;
+  gap: 24px;
+  width: 327px;
+  height: 330px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  left: 24px;
+  top: 394px;
+  border-radius: 1px;
+}
+
+.full-name {
+  width: 327px;
+  height: 48px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  top: -4100px;
+  position: relative;
+}
+
+.container-1 {
+  top: 10px;
+  position: relative;
+  left: -9px;
+}
+
+.email-address {
+  width: 327px;
+  height: 48px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: relative;
+  top: -4120px;
+}
+
+.container-2 {
+  top: 10px;
+  position: relative;
+  left: -9px;
+}
+
+.message-text {
+  width: 327px;
+  height: 114px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  position: relative;
+  top: -4130px;
+}
+
+.form-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+  background: #ff6b00;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  border: none;
+  position: relative;
+  top: -4130px;
+  left: -25px;
+}
+
+.form-button-text {
+  width: 107px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.border-none-1 {
+  border: none;
+  text-indent: 5px;
+}
+
+.border-none-2 {
+  border: none;
+  text-indent: 5px;
+}
+
+.border-none-3 {
+  border: none;
+  background: #fbf8f7;
+  text-indent: 12px;
+}
+
+.contianer-3 {
+  top: 1000px;
+  position: relative;
+  left: -5px;
+  background-image: url(/images/Rectangle\ 42.png);
 }
