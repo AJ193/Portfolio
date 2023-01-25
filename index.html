@@ -290,7 +290,7 @@
         <form class="add-info" action="https://formspree.io/f/xgebvjyw"
         method="POST">
             <div class="full-name">
-                <input class="border-none-1" type="text" name="name" placeholder="Full name">
+                <input class="border-none-1" type="text" name="name" placeholder="Full name" maxlength="30">
                 <hr class="container-1">
             </div>
             <div class="email-address">
@@ -298,16 +298,15 @@
                 <hr class="container-2">
             </div>
             <div class="message-text">
-                <textarea class="border-none-3" name="message" rows="8" cols="39" maxlength="200">Enter text here</textarea>
+                <textarea class="border-none-3" name="message" rows="8" cols="39" maxlength="500">Enter text here</textarea>
             </div>
 
-            <button class="form-button" type="submit">         
+            <button class="form-button" type="submit" button-interaction="hover">         
                 <h3 class="form-button-text">Get in touch</h3>
             </button>
         </form>
     </section>
     <footer>
-        <hr class="container-3">
         <ul class="links">
             <li class="social-icon"><a href="#"><img src="images/Disabled-G.png" alt="Github icon"></a></li>
             <li class="social-icon"><a href="#"><img src="images/Disabled-L.png" alt="linkedin icon"></a></li>
