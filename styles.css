@@ -1052,7 +1052,6 @@ nav {
   width: 375px;
   height: 844px;
   left: 0 px;
-  top: 6038px;
 }
 
 .text-2 {
@@ -1067,7 +1066,6 @@ nav {
   order: 0;
   flex-grow: 0;
   left: 24px;
-  top: 120px;
   border-radius: 0 px;
 }
 
@@ -1085,7 +1083,7 @@ nav {
   order: 0;
   flex-grow: 0;
   position: relative;
-  top: -4100px;
+  top: 1960px;
 }
 
 .add-info {
@@ -1100,7 +1098,6 @@ nav {
   order: 1;
   flex-grow: 0;
   left: 24px;
-  top: 394px;
   border-radius: 1px;
 }
 
@@ -1110,7 +1107,7 @@ nav {
   flex: none;
   order: 0;
   flex-grow: 0;
-  top: -4100px;
+  top: 1990px;
   position: relative;
 }
 
@@ -1127,7 +1124,7 @@ nav {
   order: 1;
   flex-grow: 0;
   position: relative;
-  top: -4120px;
+  top: 1978px;
 }
 
 .container-2 {
@@ -1143,7 +1140,7 @@ nav {
   order: 3;
   flex-grow: 0;
   position: relative;
-  top: -4130px;
+  top: 1965px;
 }
 
 .form-button {
@@ -1160,8 +1157,12 @@ nav {
   flex-grow: 0;
   border: none;
   position: relative;
-  top: -4130px;
+  top: 1970px;
   left: -25px;
+}
+
+.form-button:active {
+  background-color: antiquewhite;
 }
 
 .form-button-text {
