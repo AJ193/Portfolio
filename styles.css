@@ -536,6 +536,8 @@ form ul {
   font-size: 32px;
   line-height: 70%;
   margin-top: 3rem;
+  left: 55px;
+  position: relative;
 }
 
 .skillIcons h5 {
@@ -548,6 +550,8 @@ form ul {
   height: 50px;
   width: auto;
   margin-top: 3rem;
+  position: relative;
+  left: 20px;
 }
 
 .contact {
