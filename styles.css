@@ -88,6 +88,14 @@ h1 {
   color: #ff6b00;
   margin-left: 0;
   margin-top: 0;
+  animation: colorC 5s;
+}
+@keyframes colorC {
+  from {color :red;
+  }
+  to {
+    color: blue;
+  }
 }
 
 .intro-text h2 {
