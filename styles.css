@@ -80,6 +80,15 @@ nav {
   letter-spacing: 0.37px;
   width: 20rem;
   color: #ff6b00;
+  animation: colorc 5s;
+}
+@keyframes colorc {
+  from{
+    color: blue;
+  }
+  to {
+    color:red;
+  }
 }
 
 .profession h2 {
