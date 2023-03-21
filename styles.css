@@ -210,14 +210,14 @@ body {
 }
 
 .project-btn:hover {
-  background-color: rgb(231, 220, 175);
-  transform: translateY(3px);
-  color: #ff6b00;
+  color: #f55800;
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
 }
 
 .project-btn:active {
-  background-color: #ee3100;
-  transform: translateY(1px);
+  color: #f4f1f0;
+  background-color: #e05304;
 }
 
 .project-btn:disabled {
@@ -226,6 +226,13 @@ body {
 
 .projects-primary {
   background-image: url("./img/art12.png");
+  background-size: cover;
+  background-position: center;
+  margin-top: 2rem;
+}
+
+.projects-primary-7 {
+  background-image: url("./img/Aaa.png");
   background-size: cover;
   background-position: center;
   margin-top: 2rem;
@@ -274,13 +281,6 @@ body {
   font-size: 1.6rem;
   border: none;
   cursor: pointer;
-  transition: 0.3s all ease-in;
-}
-
-.project1-btn:hover {
-  background-color: rgb(231, 220, 175);
-  transform: translateY(3px);
-  color: #ff6b00;
 }
 
 .project1-btn:active {
@@ -414,10 +414,10 @@ body {
 .contact-heading {
   font-family: 'Inter', serif;
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 2rem;
   color: #172b4d;
-  text-align: center;
+  text-align: left;
 }
 
 .contact-form {
@@ -507,6 +507,8 @@ body {
     text-decoration: none;
     font-size: 15px;
     font-family: 'Inter', serif;
+    gap: 1rem;
+    position: relative;
   }
 
   .header-text {
@@ -717,7 +719,7 @@ body {
 
   .contact-heading {
     width: 40%;
-    font-size: 40px;
+    font-size: 37px;
   }
 
   .contact-form {
